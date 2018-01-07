@@ -1,3 +1,48 @@
 body{
-  background-color: oldlace;
+  background-color: lightgray;
+  font-family: "helvetica", sans-serif;
+  text-align: center;
+}
+.header{
+  background-image: url("../images/building.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  color: white;
+}
+h1{
+  font-weight:bold;
+  font-size: 70px;
+}
+a:link, a:visited{
+  color:white;
+}
+a:hover{
+  color:red;
+}
+h2{
+  font-weight: bold;
+  font-size: 32px;
+}
+h4{
+  font-size: 23px;
+  font-weight: bold;
+}
+h3{
+  background-image: url("../images/building.png");
+  background-position: center;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+p{
+  font-size: 14px;
+}
+.footer{
+  text-align: left;
+  color: white;
+  background-color: dimgray;
+  font-size: 23px;
+}
+#copy{
+  font-size: 11px;
 }
